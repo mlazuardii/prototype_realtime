@@ -15,7 +15,8 @@ use App\Events\LoadAgain;
 */
 
 Route::get('/', function () {
-    LoadAgain::dispatch('data diganti');
+    // LoadAgain::dispatch('data diganti');
+    event(new LoadAgain('Hello Echo'));
 
     return view('welcome');
 });
