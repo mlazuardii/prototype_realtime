@@ -59,3 +59,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Catatan:
+
+Laravel Pusher 3.0
+composer require pusher/pusher-php-server "~3.0"
+
+Laravel-echo
+npm install --save laravel-echo pusher-js
+
+Laravel Mix
+npm install
+npm run dev
+
+Copy node_modules/laravel-echo/dist/echo.js
+Paste public/echo.js
+
+Predis
+composer require predis/predis
+
+Socket.io
+npm install --save socket.io-client
